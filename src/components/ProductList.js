@@ -36,7 +36,7 @@ const ProductList = ({ total, onAddToCart, selectedCategory, setSelectedCategory
         <h2 className="text-3xl font-bold text-gray-800 lg:mb-0 mb-4 flex flex-row items-center"><FaStoreAlt className='ml-2 text-green-500 text-2xl'/>Products</h2>
         <div className="flex gap-6 ">
           
-          <input type="text" placeholder="Search for a product..." className="py-2 px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-200 text-green-800 w-full" value={search} onChange={e =  > setSearch(e.target.value)} />
+          <input type="text" placeholder="Search for a product..." className="py-2 px-4 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-200 text-green-800 w-full" value={search} onChange={e => setSearch(e.target.value)} />
           <div className="relative" tabIndex={0} onBlur={e => {
             setTimeout(() => setCategoryOpen(false), 100);
           }}>
