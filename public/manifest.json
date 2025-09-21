@@ -1,0 +1,25 @@
+{
+  "short_name": "بيت الجملة",
+  "name": "بيت الجملة - متجر الكتروني",
+  "icons": [
+    {
+      "src": "https://res.cloudinary.com/drh8uaeqh/image/upload/v1750353756/313314455_198693435857263_2079453457237162856_n_zxslk9.jpg",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/jpeg"
+    },
+    {
+      "src": "https://res.cloudinary.com/drh8uaeqh/image/upload/v1750353756/313314455_198693435857263_2079453457237162856_n_zxslk9.jpg",
+      "type": "image/jpeg",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://res.cloudinary.com/drh8uaeqh/image/upload/v1750353756/313314455_198693435857263_2079453457237162856_n_zxslk9.jpg",
+      "type": "image/jpeg",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
